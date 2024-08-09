@@ -14,7 +14,7 @@ heroku()
 
 app = Anony()
 userbot = Userbot()
-api = safeoneAPI()
+api = SafeoneAPI()
 
 
 from .platforms import *
