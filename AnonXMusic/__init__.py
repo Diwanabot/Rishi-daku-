@@ -4,6 +4,7 @@ from AnonXMusic.core.git import git
 from AnonXMusic.core.userbot import Userbot
 from AnonXMusic.misc import dbb, heroku
 
+from SafoneAPI import SafeoneAPI 
 from .logging import LOGGER
 
 dirr()
@@ -24,3 +25,4 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+YTB = YTM()
